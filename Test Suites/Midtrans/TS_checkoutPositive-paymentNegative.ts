@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_checkoutPositive-paymentNegative</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>c55714fe-41c6-48d6-b6bb-c17e20edfdd7</testSuiteGuid>
+   <testCaseLink>
+      <guid>0db2a9f2-50e1-4318-91b6-2924f84a0f5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Midtrans/TC_navigateToURL</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f38c722-b99e-41d1-b510-871ebe020eca</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Midtrans/TC_paymentNegative</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12f693d9-395d-4a0c-909c-c6e20cb40181</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Midtrans/PaymentNegative</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>12f693d9-395d-4a0c-909c-c6e20cb40181</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>nomorKartu</value>
+         <variableId>e229047e-d2ef-43c8-b6cd-904d97ca6646</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12f693d9-395d-4a0c-909c-c6e20cb40181</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>masaBerlaku</value>
+         <variableId>ad2f119c-86e5-4683-b572-b790f79a785b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12f693d9-395d-4a0c-909c-c6e20cb40181</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>21a01a61-fba2-499c-87ba-bb523b123017</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>12f693d9-395d-4a0c-909c-c6e20cb40181</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedResult</value>
+         <variableId>a5f5caf4-02b9-4f2f-ab29-e8c2a24e999e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

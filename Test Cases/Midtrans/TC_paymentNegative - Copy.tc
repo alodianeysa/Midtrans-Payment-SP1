@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_paymentNegative - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a58c3cdf-d576-401c-9cbe-74107bb727ae</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b47ab21-d1db-4059-bc34-043fecfbfb8c</id>
+      <masked>false</masked>
+      <name>nomorKartu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6b28648-ef45-4d1e-ba96-4c09a069c6fd</id>
+      <masked>false</masked>
+      <name>masaBerlaku</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9f7f768-f43c-4686-ae6d-eedfd8274b25</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d9782ba-933b-4cbb-85c7-f570f1279f39</id>
+      <masked>false</masked>
+      <name>expectedResult</name>
+   </variable>
+</TestCaseEntity>

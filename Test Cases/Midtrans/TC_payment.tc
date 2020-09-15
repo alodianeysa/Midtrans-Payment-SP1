@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_payment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da41a7f0-2307-492e-abaf-3f71ac8b72dc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aed8d211-7aba-4ec7-a077-9d2f5d7d23d4</id>
+      <masked>false</masked>
+      <name>nomorKartu</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bef63bfc-d34b-4211-9876-932297011358</id>
+      <masked>false</masked>
+      <name>masaBerlaku</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a9b138b4-107a-40e8-88ae-298790d8f7ad</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+</TestCaseEntity>
